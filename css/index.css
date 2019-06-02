@@ -1,7 +1,9 @@
 body {
+  max-width: 1920px;
+  overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
-.carousel-caption h1,
+.carousel-caption h2,
 .text-uppercase,
 .text-capitalize,
 .vegetables,
@@ -10,9 +12,8 @@ body {
   font-family: "Abril Fatface", cursive;
 }
 
-
-a:visited{
-	color: orangered;
+a:link{
+	color: #000;
 }
 
 a:hover{
@@ -24,7 +25,7 @@ a:active{
 }
 
 
-/* .multi-item-carousel,.carousel-inner,.item{
+ .multi-item-carousel,.carousel-inner,.item{
 	transition: 500ms ease-in-out left;
 }
 .active{
@@ -49,7 +50,7 @@ a:active{
 		backface-visibility: visible;
 		transform: none!important;
 	}
-} */
+} 
 #header i {
   font-size: 30px;
   color: #91af2b;
@@ -59,6 +60,7 @@ a:active{
   color: #000;
   margin: 40px 0;
   line-height: 1;
+  font-weight: bold;
 }
 #menu li {
   padding-right: 45px;
@@ -77,40 +79,56 @@ a:active{
   left: 0;
   bottom: 10%;
 }
-.carousel-caption h1 {
+.carousel-caption h2 {
   font-size: 44pt;
 }
-.carousel-caption h3 {
+.carousel-caption h4 {
   font-size: 19pt;
 }
 .carousel-caption a {
   font-size: 19pt;
   color: #fff;
 }
-#row1 .text-uppercase {
-  font-size: 19px;
-  color: #94c347;
-}
-#row1 .text-capitalize {
-  font-size: 60px;
+
+.text-capitalize {
+  font-size: 60pt;
   color: #000;
 }
+.text-uppercase {
+	font-size: 14pt;
+	color: #91af2b;
+  }
 #row1 {
   text-align: center;
 }
-#row2 {
-  padding: 100px 0;
+.ourproduct{
+	margin: 0 auto;
 }
-
+#row2 {
+  padding: 80px 0;
+}
+h3{
+	padding: 40px 0;
+}
+.vegetables {
+	color: #000;
+	 font-size: 24pt; 
+	 padding-top:40px;
+	  line-height: 1.5;
+}
 #offer p,
 #more p {
-  font-size: 11px;
+	padding-top:20px;
+  font-size: 16pt;
   color: #8c8c8c;
+  line-height: 1.5;
 }
 
 .col-sm-4,
 .col-md-4 {
   position: relative;
+  height: 320px;
+
 }
 .col1,
 .col2,
@@ -129,7 +147,7 @@ a:active{
 }
 #banner button {
   background-color: #91af2b;
-  font-size: 16px;
+  font-size: 12pt;
   height: 50px;
   width: 150px;
   line-height: 1;
@@ -137,16 +155,8 @@ a:active{
 #banner a {
   color: #fff;
 }
-#banner .text-uppercase {
-  font-size: 14px;
-  color: #91af2b;
-}
-#banner .text-capitalize {
-  font-size: 45px;
-  color: #000;
-}
-#banner .normal {
-  font-size: 13px;
+.bannercontent p {
+  font-size: 16pt;
   color: #666666;
 }
 #banner {
@@ -154,37 +164,56 @@ a:active{
 }
 .bannercontent {
   position: absolute;
-  left: 21%;
-  top: 130px;
-  margin: auto;
+  left: 20%;
+  top: 100px;
 }
-#banner.col-6 {
-  padding-left: 280px;
+#product .featured{
+	padding-top: 150px;
 }
+
+#link{
+	color: #000;
+	font-size: 16pt;
+	padding-right: 60px;
+  }
 #product button,
 #newproduct button {
   background-color: #fafafa;
-  font-size: 16px;
+  font-size: 12pt;
   height: 74px;
   width: 100%;
   line-height: 1;
   border: none;
 }
-#form button {
-  background-color: #91af2b;
-  font-size: 16px;
-  height: 74px;
-  width: 100%;
-  line-height: 1;
-  border: none;
-}
+
 .addtocart a {
   color: #000;
 }
-.menuproduct a {
-  color: #000;
-  font-size: 21px;
+ .col-md-5ths{
+
+    position: relative;
+
+    min-height: 1px;
+
+    padding-right: 0;
+    width: 20%;
+
+	float: left;
+	text-align: center;
+
 }
+#link-to-ins{
+display: inline-block;
+padding-top: 8%;
+}
+#form button {
+	background-color: #91af2b;
+	font-size: 12pt;
+	height: 74px;
+	width: 100%;
+	line-height: 1;
+	border: none;
+  }
 .forminfo {
   position: relative;
 }
